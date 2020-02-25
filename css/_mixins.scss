@@ -1,0 +1,7 @@
+@mixin fontset($decor:"noun",$fontWeight:300,$fontFamily:IRANSans) {
+
+    font-family: $fontFamily !important; 
+    font-weight:$fontWeight;
+    text-decoration: $decor;
+ }
+ 

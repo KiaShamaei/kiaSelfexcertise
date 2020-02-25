@@ -1,0 +1,24 @@
+@import "./clearSet";
+@import "./mixins";
+@import "./header";
+.fold1{
+    border-radius: 0 0 25em 25em;
+    background: linear-gradient(to bottom rgba(0, 0, 0, .3), rgba(0, 0, 0, .6)) ,url(../lib/images/flod1.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 150vh;
+    clip-path: polygon(0% 1%, 100% 0, 59% 59%, 0% 31%);
+    background-position: center center;
+    box-sizing: border-box;
+    margin-top: -100px;
+    z-index: -1;
+    top: 0;
+    left: 0;
+  }
+  @media (min-width: 768px) {
+  
+    nav .navbar-nav .navbar-itme {
+      background: rgba(0,0,0,0);
+  
+    }
+  }
