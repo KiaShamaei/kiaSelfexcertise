@@ -48,21 +48,47 @@ a {
 }
 
 .fold1 {
-  border-radius: 0 0 25em 25em;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url(../lib/images/flod1.jpg) no-repeat;
-  background: linear-gradient(to bottom rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(../lib/images/flod1.jpg) no-repeat;
-  background-size: cover;
-  position: relative;
-  min-height: 150vh;
-  -webkit-clip-path: polygon(0% 1%, 100% 0, 59% 59%, 0% 31%);
-          clip-path: polygon(0% 1%, 100% 0, 59% 59%, 0% 31%);
-  background-position: center center;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin-top: -100px;
+  height: 50em;
+  width: 65em;
+  border-radius: 25%;
+  background: rgba(0, 0, 0, 0.1);
+  margin: -400px 50px 0 50px;
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
   z-index: -1;
-  top: 0;
-  left: 0;
+  overflow: hidden;
+  position: relative;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)));
+  background-image: linear-gradient(to bottom rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
+}
+
+.fold1 img {
+  height: 60em;
+  width: 70em;
+  margin-top: 200px;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+.fold1Text {
+  z-index: 1;
+  position: absolute;
+  top: 8em;
+  right: 10em;
+}
+
+.iconplay {
+  color: crimson;
+  top: 8em;
+  right: 10em;
+}
+
+.btn-normal {
+  background-color: crimson;
+  color: ghostwhite;
+  padding: 10px 70px;
+  margin-top: 4em;
+  margin-left: 15em;
 }
 
 @media (min-width: 768px) {
